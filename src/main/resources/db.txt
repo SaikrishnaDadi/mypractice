@@ -1,0 +1,7 @@
+CREATE TABLE `sep21`.`Student` (
+  `stdId` INT NOT NULL AUTO_INCREMENT,
+  `stdName` VARCHAR(100) NULL,
+  `fatherName` VARCHAR(100) NULL,
+  `schoolName` VARCHAR(100) NULL,
+  `standard` VARCHAR(45) NULL,
+  PRIMARY KEY (`stdId`));
